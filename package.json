@@ -1,0 +1,23 @@
+{
+  "name": "everyday-chaos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EVERYDAY CHAOS — vertical cartoon Shorts built with Remotion",
+  "scripts": {
+    "dev": "remotion studio",
+    "render:ep01": "remotion render ep01 out/everyday-chaos-ep01.mp4",
+    "typecheck": "tsc --noEmit",
+    "detect-lines": "node scripts/detect-lines.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.544",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "4.0.544"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}
